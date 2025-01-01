@@ -4,6 +4,9 @@
     font-family: 'Poppines',sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color: #fff;
@@ -14,9 +17,7 @@ body{
     background-position:calc();
     
 }
-#heder{
-   
-}
+
 .con{
     padding: 10px 5%;
 }
@@ -283,4 +284,34 @@ nav img{
 .icons a:hover{
     color: #ff004f;
     transform: translateY(-5px);
+}
+
+.CV{
+    padding: 20px 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #ff004f;
+    color: white;
+    size: 500px;
+    border-radius: 8px;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: white;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+form button{
+    padding: 20px 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #ff004f;
+    color: white;
+    size: 500px;
+    border-radius: 8px;
 }
